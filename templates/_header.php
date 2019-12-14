@@ -69,7 +69,7 @@
     <?php endif; ?>
 
     <?php if (sfConfig::get('app_toggleLogo')): ?>
-      <?php echo link_to(image_tag('logo', array('alt' => 'AtoM')), '@homepage', array('id' => 'logo', 'rel' => 'home')) ?>
+      <?php echo link_to(image_tag('/plugins/arUFGPlugin/images/logo.png', array('alt' => 'AtoM da UFG')), '@homepage', array('id' => 'logo', 'rel' => 'home')) ?>
     <?php endif; ?>
 
   </div>
