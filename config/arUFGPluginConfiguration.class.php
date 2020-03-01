@@ -5,8 +5,8 @@ class arUFGPluginConfiguration extends sfPluginConfiguration
   // Summary and version. AtoM recognizes any plugin as a theme as long as
   // the $summary string contains the word "theme" in it (case-insensitive).
   public static
-    $summary = 'Theme plugin, extension of arDominionPlugin.',
-    $version = '0.0.1';
+    $summary = 'UFG Theme plugin, extension of arDominionPlugin.',
+    $version = '0.0.2';
 
   public function contextLoadFactories(sfEvent $event)
   {

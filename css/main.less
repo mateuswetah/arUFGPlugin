@@ -135,8 +135,7 @@ body:not(.home) .span9 {
 #top-bar {
   height: 320px;
   background-color: #161514;
-  background-
-: url(/plugins/arUFGPlugin/images/background.jpg);
+  background-image: url(/plugins/arUFGPlugin/images/background.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -243,7 +242,7 @@ header .background-gradient{
   top: 39px;
 }
 .top-item {
-  whitespace: normal;
+  white-space: normal;
 }
 
 header #logo {
@@ -358,7 +357,7 @@ header #logo{
 
 #wrapper {
   background-image: none;
-  margin-top: 70px;
+  margin-top: 68px;
 
   h1 {
     color: @headingsColor;
@@ -498,6 +497,15 @@ header #logo{
 
 }
 
+.context-menu {
+  h1, h2, h3, h4, h5, h6 {
+    margin-left: 0px;
+  }
+}
+
+#coverflow .result-count {
+  margin-top: -16px;
+}
 
 // Home page boxes
 .home-box-list {
@@ -511,9 +519,12 @@ header #logo{
     min-width: 200px;
     flex-basis: 20%;
     min-width: 200px;
-    background-color: @blueDark;
+    background-color: rgba(33, 83, 96, 0.3);
     background-size: cover;
-    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-blend-mode: soft-light;
     border-radius: 4px;
     padding: 20px;
     border: 11px solid transparent;
