@@ -456,7 +456,7 @@ header #logo{
   color: #297fa9;
 }
 
-.hierarchy #fullwidth-treeview-row{
+#fullwidth-treeview-row {
   position: fixed;
   width: 80%;
   left: 10%;
@@ -468,7 +468,10 @@ header #logo{
   border-radius: 5px;
   display: none;
 }
-
+.hierarchy #fullwidth-treeview-row,
+#fullwidth-treeview-row + #fullwidth-treeview-row{
+  display: block;
+}
 #treeview{
   text-align: left;
 }
